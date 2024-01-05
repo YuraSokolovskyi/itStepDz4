@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    border: 1px solid rgb(128, 128, 128);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImg{
+    width: 100%;
+    object-fit: contain;
+}
+
+.descriptionContainer{
+    padding: 10px;
+}
+
+.cardName{
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.cardDescription{
+    margin: 0 0 10px 0;
+    width: 100%;
+    color: grey;
+    font-size: 14px;
+}
+
+.priceContainer{
+    margin: auto 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+    width: auto;
+}
+
+.cardPrice{
+    margin: 0;
+}
+
+.cardQuantity{
+    margin: 0;
+}
